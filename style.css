@@ -1,0 +1,11 @@
+p {
+	font-size: 40px;
+	background-color: lightcyan;
+	animation-name: hello;
+	animation-duration: 5s;
+}
+
+@keyframes hello {
+	from {background-color: red;}
+	to {background-color: lightcyan;}
+}
